@@ -1,2 +1,154 @@
 
 /* css */
+
+
+body{
+  background-color: #131313;
+}
+
+h1{
+  position: relative;
+  width: 36.38rem;
+  height: 16.38rem;
+  top: 12rem;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6.19rem;
+
+  color: #3551BE;
+}
+
+#cdc{
+  position: absolute;
+  width: 887.14px;
+  height: 857px;
+  top: 60px;
+  border-width: 1.5px;
+  stroke-width=: 1.5px;
+}
+
+#curvy_lines{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  margin-top: -25rem;
+}
+h2{
+  position: absolute;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+
+  color: #FFFFFF;
+}
+h3{
+  position: relative;
+
+  top:20px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 39px;
+
+  color: #10BBC8;
+}
+
+
+
+.lthead{
+  position:relative;
+}
+
+.rthead{
+  position:relative;
+  text-align: right;
+}
+
+p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+
+#first_p{
+  top:20px;
+  position: relative;
+  width: 775px;
+  height: 438px;
+}
+
+#far_right_p{
+  height: 700px;
+  text-align:right;
+  float:right;
+}
+
+.right_p{
+
+  width: 570px;
+  height: auto;
+  text-align:right;
+  float:right;
+}
+
+.left_p{
+  top:20px;
+  position: relative;
+  width: 558px;
+  height: auto;
+}
+
+#cdc_img{
+  position: relative;
+
+  width: 456px;
+  height: 277px;
+}
+
+
+#lang_img{
+  width: 533px;
+  height: 163px;
+  float:right;
+}
+
+#job_img{
+  position: relative;
+  width: 570px;
+  height: 515px;
+}
+
+#pr_img{
+  width: 474px;
+  height: 326px;
+  float:right;
+}
+
+#covid_img{
+  width: 463px;
+  height: 213px;
+}
+
+#far_right_p{
+  width: 490px;
+  height: 515px;
+}
+
+.inside{
+  position: absolute;
+}
+
+.out{
+  position: relative;
+}
