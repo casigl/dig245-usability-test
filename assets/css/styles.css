@@ -8,7 +8,6 @@ body{
 
 h1{
   position: relative;
-  width: 36.38rem;
   height: 16.38rem;
   top: 12rem;
 
@@ -26,19 +25,12 @@ h1{
   height: 857px;
   top: 60px;
   border-width: 1.5px;
-  stroke-width=: 1.5px;
 }
 
-#curvy_lines{
-  position: absolute;
-  width: 100%;
-  height: auto;
-  z-index: -1;
-  margin-top: -25rem;
-}
+
+
 h2{
   position: absolute;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
@@ -49,8 +41,7 @@ h2{
 }
 h3{
   position: relative;
-
-  top:20px;
+  margin-top: 5px;
 
   font-family: 'Roboto';
   font-style: normal;
@@ -60,8 +51,6 @@ h3{
 
   color: #10BBC8;
 }
-
-
 
 .lthead{
   position:relative;
@@ -73,20 +62,17 @@ h3{
 }
 
 p{
+  font-size: 80px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
+  line-height: 60px;
   color: #FFFFFF;
+  margin-bottom: 15px;
+  height: auto;
+
 }
 
-#first_p{
-  top:20px;
-  position: relative;
-  width: 775px;
-  height: 438px;
-}
 
 #far_right_p{
   height: 700px;
@@ -96,59 +82,50 @@ p{
 
 .right_p{
 
-  width: 570px;
   height: auto;
   text-align:right;
-  float:right;
 }
 
-.left_p{
-  top:20px;
+.right_p{
+
+  height: auto;
+  text-align:left;
+}
+
+
+.arrows{
+  display: block;
+  margin: auto;
   position: relative;
-  width: 558px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.img_fluid{
+  max-width: 100%;
   height: auto;
 }
+
+
 
 #cdc_img{
   position: relative;
-
-  width: 456px;
-  height: 277px;
 }
 
 
 #lang_img{
-  width: 533px;
-  height: 163px;
+
   float:right;
 }
 
 #job_img{
   position: relative;
-  width: 570px;
-  height: 515px;
 }
 
 #pr_img{
-  width: 474px;
-  height: 326px;
   float:right;
 }
 
 #covid_img{
-  width: 463px;
-  height: 213px;
-}
 
-#far_right_p{
-  width: 490px;
-  height: 515px;
-}
-
-.inside{
-  position: absolute;
-}
-
-.out{
-  position: relative;
 }
